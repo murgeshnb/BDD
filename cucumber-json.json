@@ -1,0 +1,257 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-30T17:47:16.200Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3367000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.beforescenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I want to login to apllication with valid credentials",
+        "description": "",
+        "id": "login-feature;as-a-user-i-want-to-login-to-apllication-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.afterscenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1871000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I will launch the browser",
+            "match": {
+              "location": "stepDefinition.LoginTest.i_will_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2073000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I will enter the url",
+            "match": {
+              "location": "stepDefinition.LoginTest.i_will_emter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login page is displayed i will enter username and password",
+            "match": {
+              "location": "stepDefinition.LoginTest.login_page_is_displayed_i_will_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will click on login",
+            "match": {
+              "location": "stepDefinition.LoginTest.i_will_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 889000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will validate whether home page is displayed or not",
+            "match": {
+              "location": "stepDefinition.LoginTest.i_will_validate_whether_home_page_is_displayed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3676000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the url \"https://www.flipkart.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.flipkart.com/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.Datadriven.enter_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i will login with \"9902115140\" username and \"Mn@9902115140\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9902115140\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Mn@9902115140\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinition.Datadriven.i_will_login_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition.Datadriven.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-30T17:47:25.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.beforescenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "As a user i will open the flipkart and book a mobile",
+        "description": "",
+        "id": "title-of-your-feature;as-a-user-i-will-open-the-flipkart-and-book-a-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 4279000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.afterscenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2762000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i will click on Mobiles img",
+            "match": {
+              "location": "stepDefinition.Datadriven.i_will_click_on_mobiles_img()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15697000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i will click on iphone12 mobile",
+            "match": {
+              "location": "stepDefinition.Datadriven.i_will_click_on_iphone12_mobile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i will click on buy now button",
+            "match": {
+              "location": "stepDefinition.Datadriven.i_will_click_on_buy_now_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/datadriven.feature",
+    "tags": []
+  }
+]
